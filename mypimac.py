@@ -1,3 +1,7 @@
+#This is a code to view your pi mac address
+#Writer: Vitus Putra
+#Date: 11/24/2018
+
 def getMAC(interface='wlan0'):
   # Return the MAC address of the specified interface
   try:
