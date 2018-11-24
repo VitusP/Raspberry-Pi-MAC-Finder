@@ -10,4 +10,4 @@ def getMAC(interface='wlan0'):
     str = "00:00:00:00:00:00"
   return str[0:17]
 
-print(getMAC('wlan0'))
+print('Your Pi MAC Address: '+ getMAC('wlan0'))
